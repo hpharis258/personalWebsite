@@ -1,32 +1,59 @@
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .dark-mode {
+.dark-mode {
     background-color: black;
     color: white;
   }
   button{
     transition-duration: 0.4s;
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 5px;
   }
   button:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #497e4b; 
     color: white;
   }
+ 
   #navBar {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    display: -moz-inline-stack;
   }
+
+body {
+    padding: 10px;
+    background-color: #d5ddb7;
+    
+    color: black;
+    font-size: 25px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    /*display: inline;*/
+    display: inline-flex;
+  }
+/*
+  #changeMode{
+      float: right;
+  }
+*/
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+  li:not(:last-child) {
+    margin: 5px;
+}
+
+
