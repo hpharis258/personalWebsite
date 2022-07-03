@@ -1,5 +1,5 @@
 .dark-mode {
-    background-color: black;
+    background-color: rgb(11, 13, 26);
     color: white;
   }
   button{
@@ -42,11 +42,7 @@ body {
     /*display: inline;*/
     display: inline-flex;
   }
-/*
-  #changeMode{
-      float: right;
-  }
-*/
+
 .header {
     background-color: #F1F1F1;
     text-align: center;
@@ -55,5 +51,34 @@ body {
   li:not(:last-child) {
     margin: 5px;
 }
+#scrollToTopBtn{
+    float: right;
+    margin-right: 20%;
+}
+#footer{
+    text-align: center;
+    font-size: small;
+}
+/* EACH BUTTON */
+/*
+#home{
+    position: fixed;
+}
+
+#projects{
+    position: fixed;
+}
+#about {
+    position: fixed;
+}
+#contact {
+    position: fixed;
+}
+
+#changeMode{
+    position: fixed;
+}
+*/
+
 
 
