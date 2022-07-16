@@ -1,5 +1,16 @@
-a {
-  z-index: 11;
+a{
+  transition-duration: 0.4s;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+
+
 }
 .dark-mode {
     background-color: rgb(11, 13, 26);
@@ -42,7 +53,6 @@ body {
     padding: 0;
   }
   li{
-    /*display: inline;*/
     display: inline-flex;
   }
 
@@ -62,26 +72,7 @@ body {
     text-align: center;
     font-size: small;
 }
-/* EACH BUTTON */
-/*
-#home{
-    position: fixed;
-}
 
-#projects{
-    position: fixed;
-}
-#about {
-    position: fixed;
-}
-#contact {
-    position: fixed;
-}
-
-#changeMode{
-    position: fixed;
-}
-*/
 
 
 

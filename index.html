@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+
 <link rel="stylesheet" href="style.css"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="script.js"></script>
 </head>
 <body id="wholePage">
+    
+    
 <div id="navBar">
     <ul>
-        <li><button onclick="router.loadRoute('')" id="home"> Haroldas Varanauskas </button></li>
-        <li><button id="projects"> Projects and Experience </button></li>
-        <li><button onclick="about()" id="about">About</button></li>
-        <li><button id="contact">Contact</button></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects and Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li id="changeMode"><button onclick="modeSwitch()">Change Mode</button></li>
     </ul>
-<div id=application></div>
+<div id="home">
+    Home
+</div>
+<div id="projects">
+Projects
+</div>
+<div id="contact">
+Contact
 </div>
 
-
-<div id="content">Main Content</div>
-
-
 </body>
+
 <footer id="footer">
     <i> Copyright © Haroldas Varanauskas</i>
    
     <button onclick="scrollToTop()" id="scrollToTopBtn">↑</button>
+    <!-- VANTA JS -->
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#wholePage",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 1000,
+      minWidth: 800.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+    </script>
 </footer>
 
 </html>
