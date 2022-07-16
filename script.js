@@ -1,8 +1,11 @@
 function modeSwitch() {
+  globe = {backgroundColor: 0x213}
+  
+  /*
     let element = document.body;
     element.classList.toggle("dark-mode");
     element.classList.toggle("#navBar")
-  
+    */
  }
 
 
@@ -18,9 +21,5 @@ function modeSwitch() {
          }
      );
  }
-function home()
-{
-    page = document.getElementById("wholePage");
-    
-}
+
 

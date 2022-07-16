@@ -12,18 +12,32 @@
     <div id="navBar">
         <ul id="bar">
             <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects and Experience</a></li>
+            <li><a href="#projects">Competency</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li id="changeMode"><button onclick="modeSwitch()">Change Mode</button></li>
+            <!--<li id="changeMode"><button onclick="modeSwitch()">Change Mode</button></li>-->
         </ul>
     <div id="home">
-        Home
+        <h1>Hello, and Welcome!</h1>
+        <p>My name is Haroldas, I work with in Programming/Coding,  </p>
+
     </div>
     <div id="projects">
-    Projects
+    <h2>Projects</h2>
+    <p>Some Project</p>
+    <p>Some Project</p>
+    <p>Some Project</p>
+    <p>Some Project</p>
+    <p>Some Project</p>
+    <p>Some Project</p>
+    <p>Some Project</p>
+    <p>Some Project</p>
     </div>
     <div id="contact">
-    Contact
+        <h2>Contact me on one of these</h2>
+        <a target="_blank" href="https://www.instagram.com/haroldas_varanauskas/"> <img src="./insta.png"> </a>
+        <a target="_blank" href="https://www.linkedin.com/in/haroldas-varanauskas-8b980b14b/"><img src="./linked.png"></a>
+        <a target="_blank" href="hpharis258@gmail.com?cc=carboncopy@email.com&bcc=blindcarboncopy@email.com&subject=Subject%20Line%20Text&body=Message%20body%20text."><img src="./gmail.png"></a>
+    
     </div>
     <div id="globe">
 
@@ -34,46 +48,26 @@
 </body>
 
 <footer id="footer">
-    <i> Copyright © Haroldas Varanauskas</i>
+    <i style="color: white;"> Copyright © Haroldas Varanauskas</i>
    
     <button onclick="scrollToTop()" id="scrollToTopBtn">↑</button>
-    <!-- VANTA JS 
-    <script src="three.r119.min.js"></script>
-    <script src="vanta.net.min.js"></script>
-    <script id="vanta">
-    VANTA.NET({
-  el: "#wholePage",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 1000.00,
-  minWidth: 800.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xffffff,
-  backgroundColor: 0x1b6129,
-  points: 19.00,
-  maxDistance: 36.00,
-  spacing: 18.00
-})
-    </script>
--->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 <script>
-  
-  VANTA.GLOBE({
-  el: "#app",
+  //let height = document.body.clientHeight;
+  //let width = document.body.clientWidth;
+  let globe = VANTA.GLOBE({
+  el: "#wholePage",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
+  //minHeight: 1000,
+  minWidth: 200,
   scale: 1.00,
   scaleMobile: 1.00,
   color: 0x27d9a3,
-  size: 1.80,
+  size: 1.20,
   backgroundColor: 0x0
 })
 </script>
