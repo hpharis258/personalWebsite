@@ -72,7 +72,12 @@ body {
     text-align: center;
     font-size: small;
 }
-
+#app {
+  z-index: 1;
+}
+#bar {
+  border-radius: 5px;
+}
 
 
 
