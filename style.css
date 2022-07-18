@@ -113,3 +113,9 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+p{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 50%;
+}
