@@ -2,7 +2,7 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
-a{
+.navBarLinks{
   transition-duration: 0.4s;
   background-color: #4CAF50; 
   border: none;
@@ -47,7 +47,7 @@ a{
 body {
     padding: 10px;
     /*background-color: #d5ddb7;*/
-    background-color: rgb(11, 13, 26);
+    background-color: rgb(0, 0, 0);
     color: white;
     
     color: black;
@@ -92,8 +92,8 @@ h2 {
 }
 
 img{
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   z-index: 2;
 }
 
@@ -118,3 +118,8 @@ img{
   margin-right: auto;
 }
 
+.text {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
